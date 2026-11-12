@@ -1,0 +1,22 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Proximity VC (Local)",
+    "description": "Proximity voice chat helper for local worlds. Needs the bridge app.",
+    "uuid": "d4a8c1e6-2b7f-4f53-8c9a-5e1b3a6d7f11",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "e9b3d5f7-6a1c-4d82-b04e-7c2f9a8e1d22",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.14.0" }
+  ]
+}
