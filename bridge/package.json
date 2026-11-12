@@ -1,0 +1,7 @@
+{
+  "name": "mc-vc-bridge",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node --env-file=.env bridge.js" },
+  "dependencies": { "ws": "^8.18.0" }
+}
